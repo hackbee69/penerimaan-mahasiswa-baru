@@ -1,0 +1,199 @@
+<html>
+  <head>
+    <title>Membuat Halaman Pendaftaran</title>
+  </head>
+  <body>
+      <fieldset style="background-color: lightblue;">
+        <p>! Dapatkan potongan cicilan pertama (I) sebesar <strong>Rp.400.000</strong>,- Bagi yang mendaftar secara <strong>ONLINE</strong></p>
+      </fieldset>
+ 
+    <p><fieldset style="background-color: lightblue;">
+    <strong>PENDAFTARAN CALON MAHASISWA/I STMIK WIDURI</STRONG></p>
+    <p><fieldset>TA : 2022/2023 Gelombang : II Jadwal :<strong>11 July</strong> s/d<strong> 11 September 2022</strong></p>
+    </fieldset>
+  </fieldset>
+<p>Silahkan isi formulir di bawah ini untuk melengkapi Pendaftaran.<hr></p>
+ <p><fieldset style="background-color: white;">
+ <form action="contact.php" method="POST">
+          <body>
+<font size="+2"
+><b>Data Pribadi</b></font>
+            <br /><br />
+          <form action="contact.php" method="POST">
+            <fieldset>
+              
+            </td>
+          </head>
+          <body>
+</td>
+  </head> 
+          <body>
+<form method="post" action="simpan.php">
+<table width="550" align="center">
+ </tr>
+ <tr>
+   <td><strong>Nama Lengkap (Sesuai Ijazah)</strong></td>
+  <td>: <input name="nama" type="text" size="30"></td>
+ </tr>
+  
+  <tr>
+    <td><strong> Email</strong></td>
+  <td>: <input name="nama" type="text" size="30"></td>
+  </tr>
+  
+      <tr>
+        <td><strong>Jenis Kelamin</strong></td>
+  <td>
+   : <select name="agama">
+    <option value="">--Pilih Jenis Kelamin--
+    <option value="Protestan">Laki-Laki
+    <option value="Hindu">Perempuan
+   </select>
+  </td>
+ </tr>
+  
+  <tr>
+    <td><strong>Agama</strong></td>
+  <td>
+   : <select name="agama">
+    <option value="">--Pilih Agama--
+    <option value="Islam">Islam
+    <option value="Protestan">Protestan
+    <option value="Hindu">Hindu
+    <option value="Budha">Budha
+    <option value="Katolik">Katolik
+   </select>
+  </td>
+ </tr>
+  
+   <tr>
+     <td><strong>Tempat / Tanggal Lahir</strong></td>
+  <td>: <input name="nama" type="text" size="30"></td>
+ </tr>
+  
+   <tr>
+     <td><strong>HP</strong></td>
+     <td>: <input name="nama" type="text" size="20"</td>
+ </tr>
+  
+   <tr>
+     <td><strong>Telepon</strong></td>
+     <td>: <input name="nama" type="text" size="20"</td>
+ </tr>
+  
+   <tr>
+     <td><strong>NIK</strong></td>
+  <td>: <input name="nama" type="text" size="30"></td>
+ </tr>
+  
+  </br>
+  
+
+      </form>
+
+    <p><fieldset style="background-color: lightblue;"></p>
+
+        <form action="contact.php" method="POST">
+          <body>
+<font size="+2"
+><b>Silahkan Isi data diri anda</b></font> 
+            <br /><br />
+        
+<table width="550" align="center">
+<div>
+	
+
+
+  <p><fieldset style="background-color: lightblue;"></p>
+ <div class="form-group has-feedback">
+							 	    <label class="col-sm-4 control-label">Pilihan Jurusan :</label><font color="#FF0000">*</font>
+							 	    <div class="col-sm-4">
+							 	    	<select name="pilihan_jurusan" id="input" class="form-control" required="required" data-bv-field="pilihan_jurusan">
+							 	    		<option value="">-- Pilih Jurusan Kuliah --</option>
+							 	    									 	    				<option value="31">D3 Manajemen Informatika</option>";
+							 	    									 	    				<option value="32">D3 Teknik Komputer</option>";
+							 	    									 	    				<option value="41">S1 Sistem Informasi</option>";
+							 	    									 	    				<option value="42">S1 Sistem Komputer</option>";
+							 	    									 	    	</select><i class="form-control-feedback" data-bv-icon-for="pilihan_jurusan" style="display: none;"></i>
+							 	    <small class="help-block" data-bv-validator="notEmpty" data-bv-for="pilihan_jurusan" data-bv-result="NOT_VALIDATED" style="display: none;">Mohon Pilih jurusan yang anda inginkan</small><small class="help-block" data-bv-validator="stringLength" data-bv-for="pilihan_jurusan" data-bv-result="NOT_VALIDATED" style="display: none;">inputan Maksimal 2 karakter</small></div>
+							 	</div>	
+							</div>
+						</div>	
+	
+  
+
+
+							
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<div class="form-group has-feedback">
+									<div class="col-sm-8 col-sm-offset-4">
+										<div class="row">
+											<h4 class="list-group-item-heading">Buktikan Saya bukan robot?</h4>
+											<small class="list-group-item-text">Hitung angka dibawah.</small>	
+										</div>
+										<div class="row">
+											<div class="match-group col-md-4 col-sm-4 col-xs-6 ohidden">
+												<img src="https://www.trigunadharma.ac.id/plugins/math/math.php" alt="Click to reload" id="match" onclick="javascript:regCaptcha()" title="Click to reload">
+												<input type="text" name="match" class="form-control security" data-bv-field="match"><i class="form-control-feedback bv-no-label" data-bv-icon-for="match" style="display: none;"></i>
+											<small class="help-block" data-bv-validator="notEmpty" data-bv-for="match" data-bv-result="NOT_VALIDATED" style="display: none;">Mohon Isi Captcha yang tersedia</small></div>
+										</div>				
+										<div class="row">
+											<input type="checkbox" name="policy" value="1" data-bv-field="policy"><i class="form-control-feedback bv-no-label" data-bv-icon-for="policy" style="display: none;"></i> 
+											<input type="hidden" name="jadwal" id="jadwal" value="14">
+											<em>Dengan ini saya menyatakan bahwa, Data yang saya isikan di Formulir ini adalah Benar adanya sesuai dengan bukti-bukti yang ada</em>
+										</div>
+									<small class="help-block" data-bv-validator="notEmpty" data-bv-for="policy" data-bv-result="NOT_VALIDATED" style="display: none;">Please enter a value</small></div>
+								</div>
+							</div>
+						</div>	
+
+						<div class="col_full">
+							<button class="button button-3d button-large btn-block nomargin" name="apply_registerOnline" type="submit" value="apply"><i class="fa fa-sign-in"></i> Daftar</button>
+
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="form-group has-feedback">
+                                        <div class="col-sm-8 col-sm-offset-4">
+                                            <div class="row">
+                                                <h4 class="list-group-item-heading">Buktikan Saya bukan robot?</h4>
+                                                <small class="list-group-item-text">Hitung angka dibawah.</small>	
+                                            </div>
+                                            <div class="row">
+                                                <div class="match-group col-md-4 col-sm-4 col-xs-6 ohidden">
+                                                    <img src="https://www.trigunadharma.ac.id/plugins/math/math.php" alt="Click to reload" id="match" onclick="javascript:regCaptcha()" title="Click to reload">
+                                                    <input type="text" name="match" class="form-control security" data-bv-field="match"><i class="form-control-feedback bv-no-label" data-bv-icon-for="match" style="display: none;"></i>
+                                                <small class="help-block" data-bv-validator="notEmpty" data-bv-for="match" data-bv-result="NOT_VALIDATED" style="display: none;">Mohon Isi Captcha yang tersedia</small></div>
+                                            </div>				
+                                            <div class="row">
+                                                <input type="checkbox" name="policy" value="1" data-bv-field="policy"><i class="form-control-feedback bv-no-label" data-bv-icon-for="policy" style="display: none;"></i> 
+                                                <input type="hidden" name="jadwal" id="jadwal" value="14">
+                                                <em>Dengan ini saya menyatakan bahwa, Data yang saya isikan di Formulir ini adalah Benar adanya sesuai dengan bukti-bukti yang ada</em>
+                                            </div>
+                                        <small class="help-block" data-bv-validator="notEmpty" data-bv-for="policy" data-bv-result="NOT_VALIDATED" style="display: none;">Please enter a value</small></div>
+                                    </div>
+                                </div>
+                            </div>	
+    
+                            <div class="col_full">
+                                <button class="button button-3d button-large btn-block nomargin" name="apply_registerOnline" type="submit" value="apply"><i class="fa fa-sign-in"></i> Daftar</button>
+                            </div>
+						</div>
+
+						</form>
+									</div>
+			</div>
+		</div>
+
+   </body>
+
+</html>         
+            
+  
+        </fieldset>
+   </fieldset>
+   <br>
+    </form>
+</body>
+</html>
